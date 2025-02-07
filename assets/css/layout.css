@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+body {
+    font-size: 1rem;
+    font-family: var(--primary-font);
+}
