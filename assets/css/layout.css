@@ -8,10 +8,10 @@ img {
     display: block;
 }
 
-.container {
-    max-width: 75rem;
-    margin: 0 auto;
+.wrapper {
+    width: 100%;
 }
+
 
 body {
     font-size: 1rem;

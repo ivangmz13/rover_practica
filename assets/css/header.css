@@ -1,5 +1,138 @@
 header {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+
+
+    .headertop {
+
+        background-color: #21242e;
+        background-size: cover;
+
+
+        .enlaces {
+
+            display: grid;
+            grid-row: (1fr, 1fr, 1fr, 1fr);
+            max-width: 65rem;
+            height: 30px;
+            margin: 0 auto;
+        }
+
+
+
+        ul {
+            display: inline-flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-content: center;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        li {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-content: center;
+            margin: 10px;
+            font-size: 0.75rem;
+
+            a {
+
+                color: white;
+                text-decoration: none;
+
+            }
+
+
+            img {
+
+                height: 0.75rem;
+                width: 0.75rem;
+            }
+
+
+
+
+
+        }
+
+
+
+
+    }
+
+    .headerbottom {
+
+        .container {
+            display: flex;
+            flex-direction: row;
+
+            justify-content: space-between;
+            height: 30px;
+            max-width: 65rem;
+            margin: 0 auto;
+        }
+
+        figure {
+            width: 60px;
+            height: 60px;
+            margin: 5px;
+        }
+
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            align-content: flex-end;
+
+            .inicio a {
+                color: var(--secundary-color);
+            }
+
+
+
+            li {
+                display: inline-flex;
+                flex-direction: row;
+                justify-content: space-between;
+                text-align: center;
+
+
+                a {
+                    margin: 10px;
+                    text-decoration: none;
+                    font-size: 0.75rem;
+                    color: #666666;
+
+
+                    &:hover {
+                        color: var(--secundary-color);
+                    }
+
+
+
+
+
+                }
+
+            }
+        }
+
+        figure {
+            width: 60px;
+            height: 60px;
+            margin: 5px;
+        }
+
+
+    }
+
+
+
+
+
+
+
 
 }
